@@ -1,0 +1,17 @@
+[package]
+name = "expaux"
+version = "0.1.0"
+authors = ["Galen Cochrane <cochgale@isu.edu>"]
+build = "build.rs"
+
+[dependencies]
+vulkano = "0.3.1"
+vulkano-win = "0.3.1"
+cgmath = "0.12.0"
+image = "0.10.4"
+winit = "0.5.6"
+time = "0.1.35"
+
+[build-dependencies]
+vk-sys = "0.2.1"
+vulkano-shaders = "0.3.1"
